@@ -5,6 +5,6 @@
       context: .
       dockerfile: Dockerfile
     environment:
-      - ConnectionStrings__DefaultConnection=Server=Server=dpg-cq5b7duehbks73bmcnhg-a.oregon-postgres.render.com;Port=5432;Database=projects_db_wtgn;User Id=projects_db_wtgn_user;Password=qoRoB4IQUgE44nipvKrsv9APhdrizzeZ
+      - ConnectionStrings__DefaultConnection=Server=dpg-cq5b7duehbks73bmcnhg-a.oregon-postgres.render.com;Port=5432;Database=projects_db_wtgn;User Id=projects_db_wtgn_user;Password=qoRoB4IQUgE44nipvKrsv9APhdrizzeZ
     ports:
       - "8080:8080"
