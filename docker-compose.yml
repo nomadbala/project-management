@@ -1,0 +1,10 @@
+﻿services:
+  projectmanagement:
+    image: projectmanagement
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - ConnectionStrings__DefaultConnection=${DEFAULT_CONNECTION}
+    ports:
+      - "8080:8080"
